@@ -1,0 +1,23 @@
+@import "tailwindcss"; 
+@plugin "daisyui";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+html, body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff !important;
+}
+::-webkit-scrollbar {
+    width: 0px !important;
+    height: 0px !important;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: transparent !important;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent !important;
+  }
+  * {
+    scrollbar-width: none !important; 
+    -ms-overflow-style: none !important;
+  }
+  
